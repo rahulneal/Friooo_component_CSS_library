@@ -1,0 +1,108 @@
+@import url(//db.onlinewebfonts.com/c/93a467f70a3e7b27a9b52a686f351dbe?family=DINNextLTPro-Regular);
+
+*{
+    padding: 0;
+    margin: 0;
+
+   font-family: "DINNextLTPro-Regular";
+}
+:root{ --primary-colour:#FF4655;
+         --secondary-colour:#ECE8E1;
+        --third-colour:#111111;}
+
+
+body{
+    background-color: var(--secondary-colour);
+}
+
+.navbar{
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--third-colour) ;
+    /* min-height: 6vh; */
+    /* text-align: center; */
+    align-items: center;
+    flex-shrink: 1;
+}
+.header{
+    display: flex;
+    color: var(--primary-colour);
+    margin-left: 1rem;
+    text-decoration: none;
+}
+.header:hover{
+    color: var(--secondary-colour);
+}
+.link:hover{
+    color: var(--primary-colour);
+}
+.navmenu{
+    margin-right: 1rem;
+    /* margin-top: 0.3rem; */
+}
+.link{
+    text-decoration: none;
+    color: var(--secondary-colour);
+    
+}
+.navmenuul{
+    display: flex;
+    gap: 1rem;
+    list-style: none; 
+}
+
+/* ex */
+.ex{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.a {
+    /* border-right: 1px solid; */
+    /* height: 1020px; */
+    height: 92vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.b{
+    height: 92vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+
+}
+.a button{
+    padding: 1rem;
+    border: 1px solid var(--secondary-colour);
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 var(--secondary-colour);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    margin-top: .2rem;
+    background-color: var(--third-colour);
+    color: var(--secondary-colour);   
+
+}
+
+.ex .a button a{
+    color: white;
+    padding: 1rem 4.5rem ;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.a button:hover{
+    color: var(--secondary-colour);
+    background-color: var(--third-colour);
+    box-shadow: inset 400px 0 0 0 var(--primary-colour);
+  
+}

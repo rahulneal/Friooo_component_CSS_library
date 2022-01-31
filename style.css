@@ -4,38 +4,47 @@
 *{
     padding: 0;
     margin: 0;
-   background-color:var(--third-colour);
-   font-family: "DINNextLTPro-Regular";
+    font-family: "DINNextLTPro-Regular";
 }
-:root{ --primary-colour:#FF4655;
-         --secondary-colour:#ECE8E1;
-        --third-colour:#111111;}
+:root{
+     --primary-colour:#FF4655;
+     --secondary-colour:#ECE8E1;
+     --third-colour:#111111;
+    }
+body{
+    background-color:var(--third-colour);
 
+}
 
 .main{
+
+    background-image: url(./component_image/killjoy-removebg-preview.png) ;
+    background-repeat: no-repeat;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
-}
+    align-items: flex-end;
+    }
 
 
 
 #title_name{
     font-size: 15rem;
     color: var(--primary-colour);
+    background-color: transparent;
 }
 
 
 .about{
     margin: 1rem;
     /* font-size: 2rem; */
-    width: 820px;
+    /* width: 820px; */
     /* margin: auto; */
     /* align-items: center; */
     /* justify-content: center; */
     color: var(--secondary-colour);
+    background-color: transparent;
 }
 
 ul{
@@ -55,7 +64,7 @@ ul{
 
 .goto ul li a button{
     padding: 1rem;
-    border: 1px solid var(--secondary-colour);
+    border: 1px solid var(--third-colour);
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
