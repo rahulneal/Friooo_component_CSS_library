@@ -4,7 +4,13 @@
 *{
     padding: 0;
     margin: 0;
+<<<<<<< Updated upstream
     font-family: "DINNextLTPro-Regular";
+=======
+/* background: "./component_image/killjoy-removebg-preview (1).png"; */
+   background-color:var(--third-colour) ;
+   font-family: "DINNextLTPro-Regular";
+>>>>>>> Stashed changes
 }
 :root{
      --primary-colour:#FF4655;
@@ -18,9 +24,12 @@ body{
 
 .main{
 
+<<<<<<< Updated upstream
     background-image: url(./component_image/killjoy-removebg-preview.png) ;
     background-repeat: no-repeat;
     
+=======
+>>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,19 +41,35 @@ body{
 #title_name{
     font-size: 15rem;
     color: var(--primary-colour);
+<<<<<<< Updated upstream
     background-color: transparent;
+=======
+    margin: 2rem 0rem;
+>>>>>>> Stashed changes
 }
 
 
 .about{
-    margin: 1rem;
+    margin-bottom: 2rem;
     /* font-size: 2rem; */
+<<<<<<< Updated upstream
     /* width: 820px; */
     /* margin: auto; */
+=======
+    width: 820px;
+
+    
+>>>>>>> Stashed changes
     /* align-items: center; */
     /* justify-content: center; */
     color: var(--secondary-colour);
     background-color: transparent;
+}
+
+.about h3{
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 
 ul{
@@ -63,8 +88,13 @@ ul{
 }
 
 .goto ul li a button{
+<<<<<<< Updated upstream
     padding: 1rem;
     border: 1px solid var(--third-colour);
+=======
+    padding: 0.7rem 1rem;
+    border: 1px solid var(--secondary-colour);
+>>>>>>> Stashed changes
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -74,7 +104,7 @@ ul{
     transition: ease-out 0.4s;
     margin-top: 1rem;
     background-color: var(--primary-colour);
-    
+    color: var(--secondary-colour);
 
 }
 
