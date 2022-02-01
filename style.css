@@ -1,0 +1,86 @@
+/* basic things to be taken care */
+@import url(//db.onlinewebfonts.com/c/93a467f70a3e7b27a9b52a686f351dbe?family=DINNextLTPro-Regular);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "DINNextLTPro-Regular";
+}
+:root{
+     --primary-colour:#FF4655;
+     --secondary-colour:#ECE8E1;
+     --third-colour:#111111;
+    }
+body{
+    background-color:var(--third-colour);
+
+}
+
+.main{
+
+    background-image: url(./component_image/killjoy-removebg-preview.png) ;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    }
+
+
+
+#title_name{
+    font-size: 15rem;
+    color: var(--primary-colour);
+    background-color: transparent;
+}
+
+
+.about{
+    margin: 1rem;
+    /* font-size: 2rem; */
+    /* width: 820px; */
+    /* margin: auto; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    color: var(--secondary-colour);
+    background-color: transparent;
+}
+
+ul{
+    list-style: none;
+}
+.goto ul {
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.goto li{
+    margin-right: 2rem;
+}
+
+.goto ul li a button{
+    padding: 1rem;
+    border: 1px solid var(--third-colour);
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 var(--secondary-colour);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    margin-top: 1rem;
+    background-color: var(--primary-colour);
+    
+
+}
+
+.goto ul li a button:hover{
+    color: var(--primary-colour);
+    background-color: var(--secondary-colour);
+    box-shadow: inset 400px 0 0 0 var(--secondary-colour);
+  
+}
