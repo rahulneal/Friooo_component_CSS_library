@@ -1,0 +1,70 @@
+.badge-showcase{
+    display: flex;
+    display: flex;
+    padding: 2rem;
+    background-color: #f1f5f9;
+    border-radius: .8rem;
+    border: 1px solid #f1f1f1;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+
+
+}
+
+
+
+.badge-showcase ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.badge-showcase ul li{
+    margin-right: 1rem;
+    position: relative;
+
+    
+}
+
+.badge-showcase ul li img{
+    border-radius: 100%;
+
+}
+
+.online{
+    border: 5px solid green ;
+    border-radius: 100%;
+    position: absolute;
+    top: 28px;
+    right: -2px;
+}
+
+.offline{
+    border: 5px solid red ;
+    border-radius: 100%;
+    position: absolute;
+    top: 28px;
+    right: -2px;
+}
+
+
+.away{
+    border: 5px solid yellow ;
+    border-radius: 100%;
+    position: absolute;
+    top: 28px;
+    right: -2px;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+
+
