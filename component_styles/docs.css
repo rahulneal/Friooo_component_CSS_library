@@ -52,13 +52,13 @@ body{
     list-style: none; 
 }
 
-/* ex */
-.ex{
+/* example-ex a-sidebar b-content*/
+.example{
     display: grid;
     grid-template-columns: 20% 80%;
 }
 
-.a {
+.sidebar {
     /* border-right: 1px solid; */
     /* height: 1020px; */
     height: 92vh;
@@ -66,20 +66,21 @@ body{
     display: flex;
     flex-direction: column;
 }
-.b{
+.content{
     height: 92vh;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
 
 }
-.a button{
+.sidebar button{
     padding: 1rem;
     border: 1px solid var(--secondary-colour);
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 var(--secondary-colour);
+    
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
@@ -89,20 +90,48 @@ body{
 
 }
 
-.ex .a button a{
+.example .sidebar button a{
     color: white;
     padding: 1rem 4.5rem ;
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
     text-decoration: none;
+    
 }
 
 
 
-.a button:hover{
+.sidebar button:hover{
     color: var(--secondary-colour);
     background-color: var(--third-colour);
     box-shadow: inset 400px 0 0 0 var(--primary-colour);
   
+}
+
+
+                                         /* Content Side */
+.content{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.doc-layout{
+    /* background-color: yellow; */
+    position: relative;
+    height: 100%;
+
+
+}
+
+.doc-layout h1,h6{
+    margin-bottom: 2rem;
+}
+
+.doc-layout img:hover{
+    
+    box-shadow: 1px 1px 5px 1px var(--primary-colour);
+        
 }

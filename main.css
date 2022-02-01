@@ -1,0 +1,39 @@
+/*************** External Imports ***************/
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap";
+
+/*************** Component Imports ***************/
+@import "./reset.css";
+@import "./variable.css";
+@import "./utils.css";
+@import "./layouts.css";
+@import "./padding.css";
+@import "./margin.css";
+@import "./avatar.css";
+@import "./images.css";
+@import "./card.css";
+@import "./footer.css";
+@import "./navbar.css";
+@import "./buttons.css";
+@import "./sidebar.css";
+@import "./list.css";
+@import "./typography.css";
+@import "./component_styles/typography.css";
+
+/*************** Project Initials ***************/
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--default-font-size);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
