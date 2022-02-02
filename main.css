@@ -13,7 +13,7 @@
 @import "./images.css";
 @import "./card.css";
 @import "./footer.css";
-@import "./navbar.css";
+@import "./component_styles/navigation.css";
 @import "./buttons.css";
 @import "./sidebar.css";
 @import "./list.css";
