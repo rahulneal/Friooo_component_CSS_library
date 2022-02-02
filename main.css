@@ -10,7 +10,7 @@
 @import "./padding.css";
 @import "./margin.css";
 @import "./avatar.css";
-@import "./images.css";
+@import "./component_styles/image.css";
 @import "./card.css";
 @import "./footer.css";
 @import "./navbar.css";
