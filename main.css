@@ -18,6 +18,7 @@
 @import "./sidebar.css";
 @import "./list.css";
 @import "./typography.css";
+@import "./component_styles/modal.css";
 @import "./component_styles/typography.css";
 
 /*************** Project Initials ***************/
