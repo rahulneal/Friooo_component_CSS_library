@@ -16,7 +16,7 @@
 @import "./navbar.css";
 @import "./buttons.css";
 @import "./sidebar.css";
-@import "./list.css";
+@import "./component_styles/list.css";
 @import "./typography.css";
 @import "./component_styles/typography.css";
 
