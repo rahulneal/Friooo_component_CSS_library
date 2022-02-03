@@ -14,11 +14,13 @@
 @import "./card.css";
 @import "./footer.css";
 @import "./navbar.css";
-@import "./buttons.css";
+@import "./component_styles/button.css";
 @import "./sidebar.css";
 @import "./list.css";
 @import "./component_styles/badge.css";
 @import "./typography.css";
+@import "./component_styles/alerts.css";
+
 @import "./component_styles/typography.css";
 
 /*************** Project Initials ***************/
@@ -38,3 +40,7 @@ body {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
 }
+
+:root{ --primary-colour:#FF4655;
+    --secondary-colour:#ECE8E1;
+   --third-colour:#111111;}

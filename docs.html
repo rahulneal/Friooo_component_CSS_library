@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/component_styles/docs.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <title>Documentation</title>
 </head>
 <body>
@@ -34,6 +36,7 @@
             <button><a href="#alert">Alert</a></button>
             <button><a href="#badge">Badge</a></button>
             <button><a href="#card">Card</a></button>
+            <button><a href="#button">Button</a></button>
             <button><a href="#input">Input</a></button>
             <button><a href="#text utilities">Text-utilities</a></button>
             <button><a href="#list">List</a></button>
@@ -137,9 +140,44 @@
 
                     <h6>Alerts are enabled by the user and are triggered by driving events like speeding, harsh braking, and entering/exiting a geofence.</h6>
 
+                    <hr>
+                    <div class="component-display-container display-flex-column">
+                        <div class="alert-box alert-primary">A primary alert example with a text link <a
+                                class="link-text link-text-primary">Check it out!</a>
+                        </div>
+                        <div class="alert-box alert-secondary">A secondary alert example!!!!
+                        </div>
+                        <div class="alert-box alert-success"><span class="alert-icon"><i
+                                    class="fas fa-check-circle"></i></span>A success alert example!!!!
+                        </div>
+                        <div class="alert-box alert-danger"><span class="alert-icon"><i
+                                    class="fas fa-exclamation-triangle"></i>
+                            </span>A danger alert example!!!!
+                        </div>
+                        <div class="alert-box alert-warning"><span class="alert-icon"><i
+                                    class="fas fa-exclamation-triangle"></i></span> A warning alert example!!!
+                        </div>
+                    </div>
+
                     
     
-                    <img class="img-of-docs" src="./component_image/carbon (1).png" alt="Image to be added." width="840px" height="180px">
+                    <div class="component-intro">
+                        <h2 class="h4">Example of Alert bar with close button</h2>
+                        
+                    </div>
+    
+                    <div class="component-display-container display-flex-column">
+                        <div class="alert-box alert-warning" id="alert-example-close"><span class="alert-icon"><i
+                                    class="fas fa-exclamation-triangle"></i></span> A warning alert example!!!
+                            <button type="button" class="btn-close" id="alert-example-close-btn">X</button>
+                        </div>
+                    </div>
+    
+                    <div class="code-snippet-display">
+                        <code>
+                           
+                        </code>
+                    </div>
                 </div>
             </section>
 
@@ -200,13 +238,71 @@
 
              <!-- button -->
              <section id="button">
-                <div class="button doc-layout">
-                    <h1>Button</h1>
 
-                    <h6>A button is a fundamental UI element that will heavily affect your interaction design. Buttons have the power to compel users to convert, to carry out an action. Buttons are a middleman between the user and the product, and are charged with keeping the conversation between person and machine.</h6>
+
+                    <div class="component-display-container">
+                        <a href="#" class="btn flex-items btn-solid-primary">Primary-Solid</a>
+                        <a class="btn flex-items btn-outline-primary">Primary-Outline</a>
+                        <a class="link-text flex-items link-text-primary">Primary-Text</a>
+                        <a class="btn flex-items btn-icon-primary"><span class="btn-icon"><i
+                                    class="fas fa-shopping-cart"></i></span>
+                        </a>
+                        <a class="btn flex-items btn-text-icon-primary"><span class="btn-icon"><i
+                                    class="fas fa-shopping-cart"></i></span>Add to Cart</a>
+                    </div>
     
-                    <img class="img-of-docs" src="./component_image/carbon (1).png" alt="Image to be added." width="840px" height="180px">
-                </div>
+    
+                   
+                    <h2 class="h4">Example of Secondary Button Styles</h2>
+                    <p>If you want user not to pay attention to buttons then use Secondary buttons. You can directly copy
+                        below html code and use it in your app.</p>
+    
+                    <div class="component-display-container">
+                        <a class="btn flex-items btn-solid-secondary">Solid</a>
+                        <a class="btn flex-items btn-outline-secondary">Outline</a>
+                        <a class="link-text flex-items link-text-secondary">Text Link</a>
+                        <a class="btn flex-items btn-icon-secondary"><span class="btn-icon"><i
+                                    class="fas fa-trash-alt"></i></span>
+                        </a>
+                        <a class="btn flex-items btn-text-icon-secondary"><span class="btn-icon"><i
+                                    class="fas fa-minus"></i></span>Remove</a>
+                    </div>
+                   
+    
+                    <h2 class="h4">Example of Disabled Button</h2>
+                    <p>If you want to style disabled button add <span class="primary-text-color">btn-disabled</span> class
+                        and you are good to go.</p>
+    
+                    <div class="component-display-container">
+                        <a class="btn flex-items btn-solid-primary btn-disabled">Solid</a>
+                        <a class="btn flex-items btn-text-icon-secondary btn-disabled"><span class="btn-icon"><i
+                                    class="fas fa-minus"></i></span>Remove</a>
+                    </div>
+                   
+                    <h2 class="h4">Example of Different Button Sizes</h2>
+                    <p>If you want to have different size for your button, you can add <span
+                            class="primary-text-color">btn-lg-size, btn-sm-size</span> class for large and small size
+                        respectively.</p>
+    
+                    <div class="component-display-container">
+                        <a class="btn flex-items btn-solid-primary btn-lg-size">Large CTA</a>
+                        <a class="btn flex-items btn-solid-primary btn-sm-size">Small CTA</a>
+                    </div>
+                   
+    
+                    <h2 class="h4">Example of Toggle Button and Floating action Button</h2>
+                    <p>Toggle buttons can be used to change the theme. For class and html, check below code.<br>
+                        Floating-action buttons can be customized by adding the font-awesome icon of your choice. This
+                        button will be fixed to right-bottom corner.</p>
+    
+                    <div class="component-display-container">
+                        <label class="btn-toggle flex-items"><input class="btn-checkbox" type="checkbox"><span
+                                class="btn-slider-round"></span></label>
+                        <a class="btn btn-float-action flex-items"><i class="fas fa-plus"></i></a>
+                    </div>
+                    
+                
+
             </section>
 
               <!-- card -->
