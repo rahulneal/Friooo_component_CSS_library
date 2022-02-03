@@ -14,10 +14,12 @@
 @import "./component_styles/card.css";
 @import "./footer.css";
 @import "./navbar.css";
-@import "./buttons.css";
+@import "./component_styles/button.css";
 @import "./sidebar.css";
 @import "./list.css";
 @import "./typography.css";
+@import "./component_styles/alerts.css";
+
 @import "./component_styles/typography.css";
 
 /*************** Project Initials ***************/
