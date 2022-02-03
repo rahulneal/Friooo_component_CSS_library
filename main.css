@@ -9,7 +9,7 @@
 @import "./layouts.css";
 @import "./padding.css";
 @import "./margin.css";
-@import "./avatar.css";
+@import "./component_styles/avatar.css";
 @import "./images.css";
 @import "./component_styles/card.css";
 @import "./footer.css";
@@ -17,6 +17,7 @@
 @import "./component_styles/button.css";
 @import "./sidebar.css";
 @import "./list.css";
+@import "./component_styles/badge.css";
 @import "./typography.css";
 @import "./component_styles/alerts.css";
 

@@ -129,7 +129,7 @@ body{
 
 }
 
-.doc-layout h1,h6{
+.doc-layout h1,h6,h2,p,div{
     margin-bottom: 2rem;
 }
 
