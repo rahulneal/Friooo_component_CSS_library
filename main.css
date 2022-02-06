@@ -9,15 +9,24 @@
 @import "./layouts.css";
 @import "./padding.css";
 @import "./margin.css";
+<<<<<<< HEAD
 @import "./avatar.css";
 @import "./component_styles/image.css";
 @import "./component_styles/input.css";
+=======
+@import "./component_styles/avatar.css";
+@import "./images.css";
+@import "./component_styles/card.css";
+>>>>>>> origin/development
 @import "./footer.css";
 @import "./navbar.css";
-@import "./buttons.css";
+@import "./component_styles/button.css";
 @import "./sidebar.css";
 @import "./list.css";
+@import "./component_styles/badge.css";
 @import "./typography.css";
+@import "./component_styles/alerts.css";
+
 @import "./component_styles/typography.css";
 
 /*************** Project Initials ***************/
@@ -36,4 +45,30 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
+}
+
+
+
+:root {
+	--primary-color: #ff4655;
+	--light-primary-color: #ff6589;
+	--dark-primary-color: #e63961;
+
+	--complimentary-text-color: white;
+
+	--secondary-text-color: #ECE8E1;
+	--dark-secondary-text-color: #3f4049;
+	--secondary-color: #eaeaec;
+	--dark-secondary-color: #d8d8da;
+
+    --third-colour:#111111;
+    
+
+	--inactive-color: rgb(191, 192, 198);
+	--z-index-1: 1;
+	--z-index-2: 2;
+	--z-index-3: 3;
+	--z-index-4: 4;
+	--z-index-5: 5;
+	--z-index-6: 6;
 }

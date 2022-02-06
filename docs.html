@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/component_styles/docs.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <title>Documentation</title>
 </head>
 <body>
@@ -34,7 +36,11 @@
             <button><a href="#alert">Alert</a></button>
             <button><a href="#badge">Badge</a></button>
             <button><a href="#card">Card</a></button>
+<<<<<<< HEAD
             <button><a href="#image">Image</a></button>
+=======
+            <button><a href="#button">Button</a></button>
+>>>>>>> origin/development
             <button><a href="#input">Input</a></button>
             <button><a href="#text utilities">Text-utilities</a></button>
             <button><a href="#list">List</a></button>
@@ -88,9 +94,45 @@
                 <div class="avatar doc-layout">
                     <h1>Avatar</h1>
 
-                    <h6>In computing, an avatar (also known as a profile picture or userpic) is a graphical representation of a user or the user's character or persona. It may take either a two-dimensional form as an icon in Internet forums and other online communities or a three-dimensional form, as in games or virtual worlds.</h6>
+                    <h6>Avatars are user profile pictures, usually found in circular shapes. Avatars can be used for 'container' objects — projects, spaces, repositories, etcetera — to give them a recognisable visual identity.</h6>
+
+                    <br>
+                    <hr>
+
+                    <h2>Profile Avtar</h2>
+
+                    <p>Profile Avatars can be created using the class 'avatar', inside the img tag.</p>
+
+                    <div class="avtar-showcase">
+                        <ul>
+                            <li>
+                                <div >
+                                    <img src="./component_image/killjoy-removebg-preview (1).png" alt="avatar-1" width="42px" height="42px">
+                                </div>
+                            </li>
+                            <li>
+                                <div >
+                                    <img src="./component_image/JettValorantCharacter.jpg" alt="avatar-2" width="82px" height="82px">
+                                </div>
+                            </li>
+                            <li>
+                                <div >
+                                    <img src="./component_image/valo3.png" alt="avatar-3" width="112px" height="112px">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="code-snippet-display">
+                        <code>
+                            <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2820%2C33%2C61%2C1%29&t=lucario&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avtar-showcase%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fcomponent_image%252Fkilljoy-removebg-preview%2520%281%29.png%2522%2520alt%253D%2522avatar-1%2522%2520width%253D%252242px%2522%2520height%253D%252242px%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fcomponent_image%252FJettValorantCharacter.jpg%2522%2520alt%253D%2522avatar-2%2522%2520width%253D%252282px%2522%2520height%253D%252282px%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fcomponent_image%252Fvalo3.png%2522%2520alt%253D%2522avatar-3%2522%2520width%253D%2522112px%2522%2520height%253D%2522112px%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            style="width: 1024px; height: 580px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                      </div>
     
-                    <img class="img-of-docs" src="./component_image/carbon (1).png" alt="Image to be added." width="840px" height="180px">
                 </div>
             </section>
            
@@ -101,43 +143,398 @@
                     <h1>Alert</h1>
 
                     <h6>Alerts are enabled by the user and are triggered by driving events like speeding, harsh braking, and entering/exiting a geofence.</h6>
+
+                    <hr>
+                    <div class="component-display-container display-flex-column">
+                        <div class="alert-box alert-primary">A primary alert example with a text link <a
+                                class="link-text link-text-primary">Check it out!</a>
+                        </div>
+                        <div class="alert-box alert-secondary">A secondary alert example!!!!
+                        </div>
+                        <div class="alert-box alert-success"><span class="alert-icon"><i
+                                    class="fas fa-check-circle"></i></span>A success alert example!!!!
+                        </div>
+                        <div class="alert-box alert-danger"><span class="alert-icon"><i
+                                    class="fas fa-exclamation-triangle"></i>
+                            </span>A danger alert example!!!!
+                        </div>
+                        <div class="alert-box alert-warning"><span class="alert-icon"><i
+                                    class="fas fa-exclamation-triangle"></i></span> A warning alert example!!!
+                        </div>
+                    </div>
+
+                    
     
-                    <img class="img-of-docs" src="./component_image/carbon (1).png" alt="Image to be added." width="840px" height="180px">
+                    <div class="component-intro">
+                        <h2 class="h4">Example of Alert bar with close button</h2>
+                        
+                    </div>
+    
+                    <div class="component-display-container display-flex-column">
+                        <div class="alert-box alert-warning" id="alert-example-close"><span class="alert-icon"><i
+                                    class="fas fa-exclamation-triangle"></i></span> A warning alert example!!!
+                            <button type="button" class="btn-close" id="alert-example-close-btn">X</button>
+                        </div>
+                    </div>
+    
+                    <div class="code-snippet-display">
+                        <code>
+                           
+                        </code>
+                    </div>
                 </div>
             </section>
 
              <!-- badge -->
              <section id="badge">
                 <div class="badge doc-layout">
-                    <h1>badge</h1>
+                    <h1>Badge</h1>
 
-                    <h6>badges are small images in some World Wide Web pages which are typically used to promote programs that were used to create or host the site.</h6>
+                    <h6>Badges are small images in some World Wide Web pages which are typically used to promote programs that were used to create or host the site.</h6>
     
+
+                    <br>
+                    <hr>
+
+                    <h2>Profile Badge</h2>
+
+                    <p>Badges are small circles, positioned either at top-right or bottom-right of the parent component. Badge can be used to display numbers, online / offline status, depending on where they are used.</p>
+
+                    <div class="badge-showcase">
+                        <ul>
+                            <li>
+                                <div >
+                                    <img src="./component_image/killjoy-removebg-preview (1).png" alt="avatar-1" width="42px" height="42px">
+                                </div>
+                                <div class="online"></div>
+                            </li>
+                            <li>
+                                <div >
+                                    <img src="./component_image/JettValorantCharacter.jpg" alt="avatar-2" width="42px" height="42px">
+                                
+                                </div>
+                                <div class="offline"></div>
+                            </li>
+                            <li>
+                                <div >
+                                    <img src="./component_image/valo3.png" alt="avatar-3" width="42px" height="42px">
+                                </div>
+                                <div class="away"></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="code-snippet-display">
+                        <code>
+                         
+                          
+                        </code>
+                      </div>
+    
+
+
                     <img class="img-of-docs" src="./component_image/carbon (1).png" alt="Image to be added." width="840px" height="180px">
                 </div>
+
+
             </section>
 
 
              <!-- button -->
              <section id="button">
-                <div class="button doc-layout">
-                    <h1>Button</h1>
 
-                    <h6>A button is a fundamental UI element that will heavily affect your interaction design. Buttons have the power to compel users to convert, to carry out an action. Buttons are a middleman between the user and the product, and are charged with keeping the conversation between person and machine.</h6>
+
+                    <div class="component-display-container">
+                        <a href="#" class="btn flex-items btn-solid-primary">Primary-Solid</a>
+                        <a class="btn flex-items btn-outline-primary">Primary-Outline</a>
+                        <a class="link-text flex-items link-text-primary">Primary-Text</a>
+                        <a class="btn flex-items btn-icon-primary"><span class="btn-icon"><i
+                                    class="fas fa-shopping-cart"></i></span>
+                        </a>
+                        <a class="btn flex-items btn-text-icon-primary"><span class="btn-icon"><i
+                                    class="fas fa-shopping-cart"></i></span>Add to Cart</a>
+                    </div>
     
-                    <img class="img-of-docs" src="./component_image/carbon (1).png" alt="Image to be added." width="840px" height="180px">
-                </div>
+    
+                   
+                    <h2 class="h4">Example of Secondary Button Styles</h2>
+                    <p>If you want user not to pay attention to buttons then use Secondary buttons. You can directly copy
+                        below html code and use it in your app.</p>
+    
+                    <div class="component-display-container">
+                        <a class="btn flex-items btn-solid-secondary">Solid</a>
+                        <a class="btn flex-items btn-outline-secondary">Outline</a>
+                        <a class="link-text flex-items link-text-secondary">Text Link</a>
+                        <a class="btn flex-items btn-icon-secondary"><span class="btn-icon"><i
+                                    class="fas fa-trash-alt"></i></span>
+                        </a>
+                        <a class="btn flex-items btn-text-icon-secondary"><span class="btn-icon"><i
+                                    class="fas fa-minus"></i></span>Remove</a>
+                    </div>
+                   
+    
+                    <h2 class="h4">Example of Disabled Button</h2>
+                    <p>If you want to style disabled button add <span class="primary-text-color">btn-disabled</span> class
+                        and you are good to go.</p>
+    
+                    <div class="component-display-container">
+                        <a class="btn flex-items btn-solid-primary btn-disabled">Solid</a>
+                        <a class="btn flex-items btn-text-icon-secondary btn-disabled"><span class="btn-icon"><i
+                                    class="fas fa-minus"></i></span>Remove</a>
+                    </div>
+                   
+                    <h2 class="h4">Example of Different Button Sizes</h2>
+                    <p>If you want to have different size for your button, you can add <span
+                            class="primary-text-color">btn-lg-size, btn-sm-size</span> class for large and small size
+                        respectively.</p>
+    
+                    <div class="component-display-container">
+                        <a class="btn flex-items btn-solid-primary btn-lg-size">Large CTA</a>
+                        <a class="btn flex-items btn-solid-primary btn-sm-size">Small CTA</a>
+                    </div>
+                   
+    
+                    <h2 class="h4">Example of Toggle Button and Floating action Button</h2>
+                    <p>Toggle buttons can be used to change the theme. For class and html, check below code.<br>
+                        Floating-action buttons can be customized by adding the font-awesome icon of your choice. This
+                        button will be fixed to right-bottom corner.</p>
+    
+                    <div class="component-display-container">
+                        <label class="btn-toggle flex-items"><input class="btn-checkbox" type="checkbox"><span
+                                class="btn-slider-round"></span></label>
+                        <a class="btn btn-float-action flex-items"><i class="fas fa-plus"></i></a>
+                    </div>
+                    
+                
+
             </section>
 
               <!-- card -->
               <section id="card">
-                <div class="card doc-layout">
+                <div class=" doc-layout">
                     <h1>Card</h1>
 
                     <h6>card is widely used in ecommerce websites and applications.Product cards aim to capture the interest of viewers most especially that being catchy in a shopping platform attracts curious eyes and usually a possible sale.</h6>
-    
-                    <img class="img-of-docs" src="./component_image/carbon (1).png" alt="Image to be added." width="840px" height="180px">
+
+                    <hr>
+                    <br>
+
+                    <h2>Cards with Badge</h2>
+
+                    <p>Following is the card with badge, when ever we need some card which shows something New arrived.</p>
+
+                    <div class="container">
+                        <div class="card">
+                          <div class="card__container">
+                              <h1 class="card__header">
+                              Lorem Ipsum
+                            </h1>
+                            <span class="card__status"><div class="card__status__box"></div>Active</span>
+                            <p class="card__body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat vestibulum, tortor orci tellus, consectetur lorem dui. Nisl aliquet egestas imperdiet gravida dolor amet nibh
+                            </p>  
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="container">                    
+                          <div class="code_display">
+                            <iframe
+  src="https://carbon.now.sh/embed/QAy0N8BCmLWDtALQw3j6"
+  style="width: 680px; height: 465px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+                          </div>
+                      </div>
+
+
+                      <hr>
+
+                      <h2>Card with Dissmiss</h2>
+
+                      <p>Following is the card where we can click on cross to close.</p>
+
+                      <div class="container">
+                        <div class="card">
+                          <div class="card__container">
+                           <div class="card__header__dismiss">
+                               <h1 class="card__title">Header</h1>
+                               <span class="dissmiss fas fa-times"></span>
+                           </div>
+                            
+                            
+                            <p class="card__body">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat vestibulum, tortor orci tellus, consectetur lorem dui. Nisl aliquet egestas imperdiet gravida dolor amet nibh
+                            </p>  
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="container">                    
+                        <div class="code_display">
+                            <iframe
+                                    src="https://carbon.now.sh/embed/QAy0N8BCmLWDtALQw3j6"
+                                      style="width: 1280px; height: 482px; border:0; transform: scale(1); overflow:hidden;"
+                                      sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+
+
+                    <hr>
+
+                    <h2>Card with Text Only</h2>
+
+                      <p>Following is the card for text only.</p>
+
+                      <div class="container">
+                        <div class="card">
+                          <div class="card__container">
+                          
+                              <p class="card__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat vestibulum, tortor orci tellus
+                            </p>  
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="container">                    
+                        <div class="code_display">
+                            <iframe
+                                   src="https://carbon.now.sh/embed/QAy0N8BCmLWDtALQw3j6"
+                                    style="width: 1124px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <hr>
+                    
+                    <h2>Card with Overlay</h2>
+
+                      <p>when we need some card to display something on hover.</p>
+
+                      <div class="container">
+                        <div class="card">
+                          <div class="overlay">
+                            
+                            
+                            <div class="text__overlay">
+                              <h1>Js</h1>
+                            </div>
+                          </div>
+                         
+                          
+                           
+                       
+                      </div>
+                     </div>
+
+
+                      <div class="container">                    
+                        <div class="code_display">
+                            <iframe
+                                   src="https://carbon.now.sh/embed/QAy0N8BCmLWDtALQw3j6"
+                                    style="width: 1124px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+
+                     
+
+                    <hr>
+
+                    <h2>Card (Vertical)</h2>
+
+                    <p>Vertical Cards are used in ecom sites.</p>
+
+                    <div class="container">
+                      <div class="card">
+                        <div class="card__container">
+
+                            <div class="product_img">
+                                <img src="./component_image/killjoy-removebg-preview (1).png" alt="" width="440px" height="110px">
+                            </div>
+                            <h1 class="card__header">
+                            Player 1
+                          </h1>
+                          <span class="card__status">Avalible</span>
+                          <p class="card__body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat vestibulum, tortor orci tellus, consectetur lorem dui. Nisl aliquet egestas imperdiet gravida dolor amet nibh
+                          </p>  
+                        </div>
+                     
+                         
+                     
+                    </div>
+
+                    </div>
+
+
+                    <div class="container">                    
+                      <div class="code_display">
+                          <iframe
+                                 src="https://carbon.now.sh/embed/QAy0N8BCmLWDtALQw3j6"
+                                  style="width: 1124px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+                                  sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                      </div>
+                  </div>
+
+                  <hr>
+
+
+                  <h2>Card (Horizontal)</h2>
+
+                  <p>Horizontal Cards are used in game sites.</p>
+
+                  <div class="container">
+                    <div class="card__horizontal">
+                      <div class="card__container__horizontal">
+
+                          <div class="product_img">
+                              <img src="./component_image/killjoy-removebg-preview (1).png" alt="" width="440px" height="440px">
+                          </div>
+                          <div class="about__horizontal">
+                            <h1 class="card__header__horizontal">
+                              Player 1
+                            </h1>
+                            
+                            <p class="card__body__horizontal">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repudiandae quibusdam perferendis sapiente voluptatum sit itaque harum voluptas, quaerat accusamus unde fugiat amet, explicabo exercitationem dicta at provident iste? Aspernatur! 
+                            </p>  
+                          </div>
+                      </div>
+                   
+                       
+                   
+                  </div>
+
+                  </div>
+
+
+                  <div class="container">                    
+                    <div class="code_display">
+                        <iframe
+                               src="https://carbon.now.sh/embed/QAy0N8BCmLWDtALQw3j6"
+                                style="width: 1124px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
                 </div>
+
+                <hr>
+                 
+    
+                  
+    
+                
+                
             </section>
         
              <!-- image -->
