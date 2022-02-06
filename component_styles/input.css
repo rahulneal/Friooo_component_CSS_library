@@ -1,0 +1,46 @@
+.input-group {
+    color: #333;
+    font-size: .8rem;
+    line-height: 20px;
+    margin: 0 20px 10px;
+    width: 80%;
+}
+  
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+input[type=text] {
+    background: #fff;
+    border: 1px solid #999;
+    padding:.6rem .7rem;
+    float: left;
+    font-size: .8rem;
+    margin: 5px 0;
+    width: 100%;
+    transition: .3s all ease;
+    outline: none;
+    border-radius: 2px;
+}
+
+.input-group input:focus{
+    border : 1px solid green;
+}
+
+.input-group.err label{
+    color: red;
+}
+
+.input-group.err input{
+    border: 1px solid red;
+}
+
+.input-group.err input:focus{
+    border: 1px solid red;
+}
+
+.error-message{
+    color: red;
+}
+
