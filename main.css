@@ -9,29 +9,23 @@
 @import "./layouts.css";
 @import "./padding.css";
 @import "./margin.css";
-<<<<<<< HEAD
 @import "./avatar.css";
 @import "./component_styles/image.css";
 @import "./component_styles/input.css";
-=======
 @import "./component_styles/avatar.css";
 @import "./images.css";
 @import "./component_styles/card.css";
->>>>>>> origin/development
 @import "./footer.css";
 @import "./navbar.css";
 @import "./component_styles/button.css";
 @import "./sidebar.css";
-<<<<<<< HEAD
 @import "./component_styles/list.css";
 @import "./component_styles/textut.css";
-=======
 @import "./list.css";
 @import "./component_styles/badge.css";
 @import "./typography.css";
 @import "./component_styles/alerts.css";
 
->>>>>>> origin/development
 @import "./component_styles/typography.css";
 
 /*************** Project Initials ***************/
@@ -53,7 +47,6 @@ body {
 }
 
 
-<<<<<<< HEAD
 .github-link{
   cursor: pointer;
   font-weight: 500;
@@ -215,7 +208,6 @@ a{
       margin-bottom: 1rem;
   }
 }
-=======
 
 :root {
 	--primary-color: #ff4655;
@@ -240,4 +232,3 @@ a{
 	--z-index-5: 5;
 	--z-index-6: 6;
 }
->>>>>>> origin/development
