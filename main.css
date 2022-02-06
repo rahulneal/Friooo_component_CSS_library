@@ -9,15 +9,12 @@
 @import "./layouts.css";
 @import "./padding.css";
 @import "./margin.css";
-<<<<<<< HEAD
 @import "./avatar.css";
 @import "./component_styles/image.css";
 @import "./component_styles/input.css";
-=======
 @import "./component_styles/avatar.css";
 @import "./images.css";
 @import "./component_styles/card.css";
->>>>>>> origin/development
 @import "./footer.css";
 @import "./navbar.css";
 @import "./component_styles/button.css";
