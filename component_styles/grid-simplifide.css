@@ -1,0 +1,50 @@
+.grid__50{
+    display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  align-items: center;
+}
+.grid__70{
+    display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: 70% auto;
+  background-color: #2196F3;
+  padding: 10px;
+  align-items: center;
+}
+.image__grid{
+    border: 2px solid yellow;
+}
+
+.about__grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+
+}
+
+.title__grid{
+    font-size:  3rem;
+    color: white;
+}
+
+.about__grid button{
+    padding: 1.5rem 2rem;
+    
+}
+
+.grid-3{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    align-items: center;
+    
+
+}
+
