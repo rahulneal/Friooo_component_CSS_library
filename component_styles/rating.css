@@ -1,0 +1,27 @@
+.rating ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1.5rem 2rem ;
+    border: 1px solid white;
+    background-color: white;
+
+}
+
+.rating-badge-number{
+    margin-right: .2rem;
+}
+
+li{
+    list-style: none;
+}
+
+.fa-star{
+    color: gold;
+}
+
+.rating__des{
+    background-color: grey;
+    border: 1px solid grey;
+    color: white;
+}
