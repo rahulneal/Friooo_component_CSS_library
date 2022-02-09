@@ -16,8 +16,13 @@
 @import "./images.css";
 @import "./component_styles/card.css";
 @import "./footer.css";
+<<<<<<< HEAD
+@import "./component_styles/navigation.css";
+@import "./buttons.css";
+=======
 @import "./navbar.css";
 @import "./component_styles/button.css";
+>>>>>>> origin/development
 @import "./sidebar.css";
 @import "./component_styles/list.css";
 @import "./component_styles/textut.css";
