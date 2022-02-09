@@ -24,6 +24,8 @@
 @import "./component_styles/list.css";
 @import "./component_styles/textut.css";
 @import "./list.css";
+@import "./component_styles/toast.css";
+@import "./component_styles/rating.css";
 @import "./component_styles/badge.css";
 @import "./typography.css";
 @import "./component_styles/modal.css";
