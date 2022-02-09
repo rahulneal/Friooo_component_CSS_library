@@ -1,0 +1,38 @@
+.nav__bar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: .4rem .2rem;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 2rem;
+}
+
+.nav__menu{
+    display: flex;
+}
+
+.nav__menu__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+
+.nav__menu__ul li{
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.nav__menu__ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav__logo{
+
+}
+
