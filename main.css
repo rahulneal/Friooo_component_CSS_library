@@ -16,12 +16,10 @@
 @import "./images.css";
 @import "./component_styles/card.css";
 @import "./footer.css";
-
 @import "./component_styles/navigation.css";
 @import "./buttons.css";
 @import "./navbar.css";
 @import "./component_styles/button.css";
-
 @import "./sidebar.css";
 @import "./component_styles/list.css";
 @import "./component_styles/textut.css";
@@ -31,6 +29,7 @@
 @import "./component_styles/badge.css";
 @import "./typography.css";
 @import "./component_styles/grid-simplifide.css";
+@import "./component_styles/modal.css";
 @import "./component_styles/alerts.css";
 
 @import "./component_styles/typography.css";
