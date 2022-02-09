@@ -1,0 +1,40 @@
+.modal{
+    display: flex;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+}
+
+.main__modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.main__modal h1{
+    color: lightskyblue;
+}
+
+.main__modal p{
+    margin-bottom: 1rem;
+}
+
+.cta__button{
+    display: flex;
+    
+}
+
+.cta__button button{
+    padding: 1rem;
+    margin-right: 1rem;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: .5rem;
+}
+
+i{
+    size: 10px;
+}
